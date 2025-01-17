@@ -26,6 +26,6 @@
 
 7. ### Start Contributing:
 
- - Check out the [CONTRIBUTING.md](https://github.com/programming-club-knit/TodoList/blob/main/CONTRIBUTING.md)
+ - Check out the [CONTRIBUTING.md](https://github.com/programming-club-knit/Weather-App/blob/main/CONTRIBUTING.md)
 
  - Pick an issue from the Issues tab and start working on it.
