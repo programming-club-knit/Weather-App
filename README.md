@@ -15,7 +15,7 @@
 
 4. ### Navigate to the Project Directory:
 
-       cd Weather-App/index.html
+       cd Weather-App
 
 5. ### Open Live Server:
 
