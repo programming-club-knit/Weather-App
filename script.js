@@ -14,10 +14,20 @@ searchBtn.addEventListener("click", () => {
 
 async function fetchWeather(city) {
     try {
+        if(apiKey == "")
+        {
+            weatherInfo.innerHTML = `<p>API Key is missing. Please configure a valid API Key.</p>`;
+            return;
+        }
         const response = await fetch(
             `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
         );
         const data = await response.json();
+        if(data.cod === 401)
+        {
+            weatherInfo.innerHTML = `<p>Invalid API Key. Please provide a valid API Key.</p>`;
+        }
+        else
         if (data.cod === 200) {
             displayWeather(data);
         } else {
