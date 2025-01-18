@@ -17,14 +17,21 @@
 
        cd Weather-App
 
-5. ### Open Live Server:
+5. ### Create a new branch
+
+        git branch issue/issuename
+
+6. ### Switch to new branch
+        git checkout branchname
+
+7. ### Open Live Server:
 
    
 
-6. ### Your Application will be started
+8. ### Your Application will be started
 
 
-7. ### Start Contributing:
+9. ### Start Contributing:
 
  - Check out the [CONTRIBUTING.md](https://github.com/programming-club-knit/Weather-App/blob/main/CONTRIBUTING.md)
 
