@@ -46,3 +46,18 @@ button {
 #weather-info {
   font-size: 1.2rem;
 }
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  color: #764ba2;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+button:hover {
+  background-color: #764ba2;
+  color: #fff;
+}
